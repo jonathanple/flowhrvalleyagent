@@ -1,6 +1,6 @@
 # HR Valley Agent
 
-![HR Valley Agent Logo](/project_logo_(1).png)
+![HR Valley Agent Logo](/FLOWLOGO.png)
 
 ## Overview
 
@@ -45,7 +45,7 @@ Key features of the chatbot include:
 The chatbot uses the employee's data (e.g., position, department) to provide personalized responses, ensuring that each employee receives tailored HR support. It integrates with Valley Water’s HR systems, offering a seamless and interactive experience.
 
 ## See Our Demo Video
-[![Watch the demo](team_picture.jpg)](https://www.youtube.com/watch?v=Rqd5e7HYspU)
+[![Watch the demo](/teampic.jpg)](https://www.youtube.com/watch?v=Rqd5e7HYspU)
 
 <!-- Example for project presentation -->
 <!-- [![IMAGE ALT TEXT HERE](/HRValleyAgentDemo.png)](https://youtu.be/Sa3w50Kn6TY) -->
