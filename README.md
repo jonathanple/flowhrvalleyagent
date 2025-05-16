@@ -1,58 +1,51 @@
-<h1>JWipe - Disk Sanitization</h1>
+# HR Valley Agent
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+![HR Valley Agent Logo](https://via.placeholder.com/150)
 
-<h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
-<br />
+## Overview
 
+HR Valley Agent is a 24/7 chatbot designed to assist employees of Valley Water in navigating HR-related tasks such as benefits management, time-off requests, and career development. This chatbot is designed to streamline HR processes, improve employee engagement, and ensure quick access to essential HR information.
 
-<h2>Languages and Utilities Used</h2>
+## HR Valley Agent: What is it?
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+**HR Valley Agent** is a virtual assistant built to provide comprehensive HR support to Valley Water employees. The system covers various HR services, including:
 
-<h2>Environments Used </h2>
+- **Benefits Exploration**: Understanding available benefits like health, dental, and retirement plans.
+- **Time Off Management**: Checking PTO balance, requesting time off, and viewing holidays.
+- **Performance Reviews**: Information on performance reviews, scheduling, and feedback processes.
+- **Career Development**: Personalized career growth guidance and information about training opportunities.
 
-- <b>Windows 10</b> (21H2)
+Employees can use the chatbot to quickly access HR-related information and streamline various HR processes. The chatbot also assists employees with personalized support based on their position, department, and career development.
 
-<h2>Program walk-through:</h2>
+## Why HR Valley Agent?
 
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+Human resources departments are often overwhelmed with employee inquiries regarding benefits, time-off, and policies. HR departments also struggle with providing quick, accessible information during high-demand times, such as performance review periods or new benefits enrollment windows.
 
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
+Existing solutions for HR services include:
+- HR ticketing systems where employees can submit requests.
+- Manual HR consultations for specific inquiries.
+
+Our prototype aims to address these inefficiencies by:
+- Offering 24/7 support for employees, reducing the need for real-time HR intervention.
+- Assisting employees with all HR-related queries from benefits to performance reviews.
+- Providing HR content tailored to the specific needs of Valley Water employees, without focusing on a single school or institution.
+
+The primary objective is to improve accessibility to HR resources and reduce response times for HR-related queries, making the work environment more efficient and employee-friendly.
+
+## Our Solution
+
+We created a chatbot prototype designed to alleviate HR service load and provide employees with real-time HR support. The HR Valley Agent integrates with **OpenAI** and **Streamlit** for natural conversation and efficient user interaction.
+
+Key features of the chatbot include:
+- **Benefits Management**: Employees can easily inquire about and manage their benefits.
+- **Time-Off Requests**: Simplifies the process of requesting, viewing, and managing vacation and sick leave.
+- **Performance Review Information**: Provides guidance on upcoming reviews, goals, and feedback sessions.
+- **Career Development**: Offers personalized career development resources, training opportunities, and HR-related professional growth tips.
+
+The chatbot uses the employee's data (e.g., position, department) to provide personalized responses, ensuring that each employee receives tailored HR support. It integrates with Valley Water’s HR systems, offering a seamless and interactive experience.
+
+## See Our Demo Video
+[![Watch the demo](https://img.youtube.com/vi/SaaxIlViHTk/hqdefault.jpg)](https://www.youtube.com/watch?v=Rqd5e7HYspU)
+
+<!-- Example for project presentation -->
+<!-- [![IMAGE ALT TEXT HERE](/HRValleyAgentDemo.png)](https://youtu.be/Sa3w50Kn6TY) -->
